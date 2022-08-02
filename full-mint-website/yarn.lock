@@ -1072,6 +1072,11 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
+"@chainlink/contracts@^0.3.0":
+  "integrity" "sha512-A8DRvmfNCwLS1iduPPj7wNAZJMe9/ZimMhoHhbbBiq+7Vq/HFjiNcdoQ5NinFdXD5aTsoNUGG5pAYKj7YMpm9A=="
+  "resolved" "https://registry.npmjs.org/@chainlink/contracts/-/contracts-0.3.1.tgz"
+  "version" "0.3.1"
+
 "@chakra-ui/accordion@2.0.6":
   "integrity" "sha512-1wPSSk2ZbiIHV4W/HMrv0t+jxiLMTDFVFd92ru8loFtU1AjNJ068OlJJs2V5hz4mbriC0nDctMxDJmT0zmPNaA=="
   "resolved" "https://registry.npmjs.org/@chakra-ui/accordion/-/accordion-2.0.6.tgz"
@@ -1732,6 +1737,16 @@
   "integrity" "sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw=="
   "resolved" "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz"
   "version" "3.4.1"
+
+"@divergencetech/ethier@^0.33.0":
+  "integrity" "sha512-UjgBTBPAz5aCKGiZd7btkkMnOMSC8pTWxqiXAzKW1I9XI1RqpVKrWZZh0vlQXU51CMxfX1uCV36lEQqnpiaBFg=="
+  "resolved" "https://registry.npmjs.org/@divergencetech/ethier/-/ethier-0.33.0.tgz"
+  "version" "0.33.0"
+  dependencies:
+    "@chainlink/contracts" "^0.3.0"
+    "@openzeppelin/contracts" "^4.6"
+    "@openzeppelin/contracts-upgradeable" "^4.4.1"
+    "erc721a" "^4.1.0"
 
 "@emotion/babel-plugin@^11.7.1":
   "integrity" "sha512-Pr/7HGH6H6yKgnVFNEj2MVlreu3ADqftqjqwUvDy/OJzKFgxKeTQ+eeUf20FOTuHVkDON2iNa25rAXVYtWJCjw=="
@@ -2936,7 +2951,12 @@
     "@types/sinon-chai" "^3.2.3"
     "@types/web3" "1.0.19"
 
-"@openzeppelin/contracts@^4.7.1":
+"@openzeppelin/contracts-upgradeable@^4.4.1":
+  "integrity" "sha512-3dgc6qVmFch/uOmlmKnw5/v3JxwXcZD4T10/9CI1OUbX8AqjoZrBGKfxN1z3QxnIXRU/X31/BItJezJSDDTe7Q=="
+  "resolved" "https://registry.npmjs.org/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.7.2.tgz"
+  "version" "4.7.2"
+
+"@openzeppelin/contracts@^4.6", "@openzeppelin/contracts@^4.7.1":
   "integrity" "sha512-UXmAjKARsXORHlHZu5GCD7ZbRKm6nU8UHnbuT/QJJa2JEOEcbvV/X8w/sUk62Sl9VZuuljM1akrZLyAtzUgsxw=="
   "resolved" "https://registry.npmjs.org/@openzeppelin/contracts/-/contracts-4.7.1.tgz"
   "version" "4.7.1"
@@ -7393,6 +7413,11 @@
   "resolved" "https://registry.npmjs.org/env-paths/-/env-paths-2.2.1.tgz"
   "version" "2.2.1"
 
+"erc721a@^4.1.0":
+  "integrity" "sha512-b3MCLFMKQ+gVlRr7BUP6p4li5+ujbVZR6bSdOPtwZ6+9gAgYxXxHp0yaUPPvFpVQQVdlU8/LKQmGrrPhESGwWg=="
+  "resolved" "https://registry.npmjs.org/erc721a/-/erc721a-4.2.0.tgz"
+  "version" "4.2.0"
+
 "errno@~0.1.1":
   "integrity" "sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A=="
   "resolved" "https://registry.npmjs.org/errno/-/errno-0.1.8.tgz"
@@ -9851,6 +9876,11 @@
   "integrity" "sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw=="
   "resolved" "https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz"
   "version" "2.1.0"
+
+"i@^0.3.7":
+  "integrity" "sha512-FYz4wlXgkQwIPqhzC5TdNMLSE5+GS1IIDJZY/1ZiEPCT2S3COUVZeT5OW4BmW4r5LHLQuOosSwsvnroG9GR59Q=="
+  "resolved" "https://registry.npmjs.org/i/-/i-0.3.7.tgz"
+  "version" "0.3.7"
 
 "iconv-lite@^0.6.2":
   "version" "0.6.2"
